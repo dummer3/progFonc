@@ -1,0 +1,8 @@
+Debugger entered--Lisp error: (void-function define)
+  (define carre (function (lambda (L) (if (null\? L) (quote nil) (append (* (car L) (car L)) (cdr L))))))
+  eval((define carre (function (lambda (L) (if (null\? L) (quote nil) (append (* (car L) (car L)) (cdr L)))))) nil)
+  elisp--eval-last-sexp(nil)
+  eval-last-sexp(nil)
+  funcall-interactively(eval-last-sexp nil)
+  call-interactively(eval-last-sexp nil nil)
+  command-execute(eval-last-sexp)
